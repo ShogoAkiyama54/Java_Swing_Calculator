@@ -42,7 +42,8 @@ public class StringCalculator {
 	}
 
 	private int calculate() { // recursive
-		if (nums.size() == 1) // base case:
+		// base case: 
+		if (nums.size() == 1)
 			return nums.get(0);
 
 		//recursive case: 
